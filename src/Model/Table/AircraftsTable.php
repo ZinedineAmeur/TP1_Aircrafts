@@ -10,7 +10,7 @@ class AircraftsTable extends Table
     public function initialize(array $config)
     {
         $this->addBehavior('Timestamp');
-		$this->hasMany('engines');
+		$this->hasMany('Engines');
 		$this->belongsTo('Users', [
             'foreignKey' => 'user_id',
         ]);
@@ -31,10 +31,6 @@ class AircraftsTable extends Table
 			->allowEmptyString('Modele', false)
 			->minLength('Modele', 5)
 			->maxLength('Modele', 255)
-
-			->allowEmptyString('Moteur', false)
-			->minLength('Moteur', 5)
-			->maxLength('Moteur', 255)
 			
 			->allowEmptyString('Armee', false)
 			->minLength('Armee', 5)

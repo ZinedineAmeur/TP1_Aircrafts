@@ -1,0 +1,318 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2020-10-16 21:11+0000\n"
+"PO-Revision-Date: 2020-10-16 17:42-0400\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: \n"
+"Language: es_ES\n"
+
+#: Controller/AircraftsController.php:63
+msgid "Your aircraft has been saved."
+msgstr "Su avión se ha guardado."
+
+#: Controller/AircraftsController.php:66
+msgid "Unable to add your aircraft."
+msgstr "Unable to add your aircraft."
+
+#: Controller/AircraftsController.php:85
+msgid "Your aircraft has been edited."
+msgstr "Su avión ha sido editado."
+
+#: Controller/AircraftsController.php:88
+msgid "Unable to edit your aircraft."
+msgstr "No se puede editar su avión."
+
+#: Controller/AircraftsController.php:102
+msgid "The aircraft {0} has been deleted."
+msgstr "La aeronave {0} se ha eliminado."
+
+#: Controller/EnginesController.php:54 Controller/EnginesController.php:79
+msgid "The engine has been saved."
+msgstr "El motor se ha salvado."
+
+#: Controller/EnginesController.php:58 Controller/EnginesController.php:83
+msgid "The engine could not be saved. Please, try again."
+msgstr "No se pudo salvar el motor. Inténtalo de nuevo."
+
+#: Controller/EnginesController.php:101
+msgid "The engine has been deleted."
+msgstr "El motor ha sido eliminado."
+
+#: Controller/EnginesController.php:103
+msgid "The engine could not be deleted. Please, try again."
+msgstr "No se pudo eliminar el motor. Inténtalo de nuevo."
+
+#: Controller/UsersController.php:81 Controller/UsersController.php:106
+msgid "The user has been saved."
+msgstr "El usuario ha sido guardado."
+
+#: Controller/UsersController.php:85 Controller/UsersController.php:110
+msgid "The user could not be saved. Please, try again."
+msgstr "No se pudo guardar al usuario. Inténtalo de nuevo."
+
+#: Controller/UsersController.php:128
+msgid "The user has been deleted."
+msgstr "El usuario ha sido eliminado."
+
+#: Controller/UsersController.php:130
+msgid "The user could not be deleted. Please, try again."
+msgstr "No se pudo eliminar al usuario. Inténtalo de nuevo."
+
+#: Template/Aircrafts/add.ctp:6 Template/Aircrafts/edit.ctp:5
+#: Template/Engines/view.ctp:57 Template/Users/view.ctp:59
+msgid "Modele"
+msgstr "Modelo"
+
+#: Template/Aircrafts/add.ctp:7 Template/Aircrafts/edit.ctp:6
+#: Template/Engines/view.ctp:59 Template/Users/view.ctp:62
+msgid "AnneeDev"
+msgstr "año de desarrollo"
+
+#: Template/Aircrafts/add.ctp:8 Template/Aircrafts/edit.ctp:7
+#: Template/Engines/view.ctp:60 Template/Users/view.ctp:63
+msgid "Armee"
+msgstr "Ejército"
+
+#: Template/Aircrafts/add.ctp:10 Template/Aircrafts/edit.ctp:8
+msgid "Save the aircraft"
+msgstr "Salva el avión"
+
+#: Template/Aircrafts/view.ctp:2
+msgid "Created the: "
+msgstr "Crea el: "
+
+#: Template/Aircrafts/view.ctp:3
+msgid "Army: "
+msgstr "Ejército: "
+
+#: Template/Aircrafts/index.ctp:1
+msgid "Aircrafts"
+msgstr "Aviones"
+
+#: Template/Aircrafts/index.ctp:2
+msgid "Add an aircraft"
+msgstr "Agregar un avión"
+
+#: Template/Aircrafts/edit.ctp:1
+msgid "Edit an aircraft"
+msgstr "Modificar un avión"
+
+#: Template/Aircrafts/add.ctp:1
+msgid "Add an aircraft"
+msgstr "Agregar un avión"
+
+#: Template/Aircrafts/index.ctp:8 Template/Engines/add.ctp:9
+#: Template/Engines/edit.ctp:9 Template/Engines/index.ctp:9
+#: Template/Engines/index.ctp:27 Template/Engines/view.ctp:9
+#: Template/Engines/view.ctp:63 Template/Users/add.ctp:9
+#: Template/Users/edit.ctp:9 Template/Users/index.ctp:9
+#: Template/Users/index.ctp:31 Template/Users/view.ctp:9
+#: Template/Users/view.ctp:66
+msgid "Actions"
+msgstr "Comportamiento"
+
+#: Template/Engines/add.ctp:10 Template/Engines/edit.ctp:16
+#: Template/Engines/view.ctp:12
+msgid "List Engines"
+msgstr "Motores de lista"
+
+#: Template/Engines/add.ctp:11 Template/Engines/edit.ctp:17
+#: Template/Engines/index.ctp:11 Template/Engines/view.ctp:14
+#: Template/Users/add.ctp:13 Template/Users/edit.ctp:19
+#: Template/Users/index.ctp:15 Template/Users/view.ctp:16
+msgid "List Aircrafts"
+msgstr "Lista de aviones"
+
+#: Template/Engines/add.ctp:12 Template/Engines/edit.ctp:18
+#: Template/Engines/index.ctp:12 Template/Engines/view.ctp:15
+#: Template/Users/add.ctp:14 Template/Users/edit.ctp:20
+#: Template/Users/index.ctp:16 Template/Users/view.ctp:17
+msgid "New Aircraft"
+msgstr "Aviones nuevos"
+
+#: Template/Engines/add.ctp:18
+msgid "Add Engine"
+msgstr "Agregar motor"
+
+#: Template/Engines/add.ctp:27 Template/Engines/edit.ctp:33
+#: Template/Users/add.ctp:28 Template/Users/edit.ctp:34
+msgid "Submit"
+msgstr "Enviar"
+
+#: Template/Engines/edit.ctp:11 Template/Engines/index.ctp:43
+#: Template/Engines/view.ctp:78 Template/Users/edit.ctp:11
+#: Template/Users/index.ctp:47 Template/Users/view.ctp:82
+msgid "Delete"
+msgstr "Eliminar"
+
+#: Template/Engines/edit.ctp:13 Template/Engines/index.ctp:43
+#: Template/Engines/view.ctp:11 Template/Engines/view.ctp:78
+#: Template/Users/edit.ctp:13 Template/Users/index.ctp:47
+#: Template/Users/view.ctp:11 Template/Users/view.ctp:82
+msgid "Are you sure you want to delete # {0}?"
+msgstr "¿Estás seguro de que quieres eliminar # {0}?"
+
+#: Template/Engines/edit.ctp:24 Template/Engines/view.ctp:10
+msgid "Edit Engine"
+msgstr "Editar motor"
+
+#: Template/Engines/index.ctp:10 Template/Engines/view.ctp:13
+msgid "New Engine"
+msgstr "Nuevo motor"
+
+#: Template/Engines/index.ctp:16
+msgid "Engines"
+msgstr "Motores"
+
+#: Template/Engines/index.ctp:41 Template/Engines/view.ctp:76
+#: Template/Users/index.ctp:45 Template/Users/view.ctp:80
+msgid "View"
+msgstr "Ver"
+
+#: Template/Engines/index.ctp:42 Template/Engines/view.ctp:77
+#: Template/Users/index.ctp:46 Template/Users/view.ctp:81
+msgid "Edit"
+msgstr "Editar"
+
+#: Template/Engines/index.ctp:51 Template/Users/index.ctp:55
+msgid "first"
+msgstr "primero"
+
+#: Template/Engines/index.ctp:52 Template/Users/index.ctp:56
+msgid "previous"
+msgstr "Previo"
+
+#: Template/Engines/index.ctp:54 Template/Users/index.ctp:58
+msgid "next"
+msgstr "siguiente"
+
+#: Template/Engines/index.ctp:55 Template/Users/index.ctp:59
+msgid "last"
+msgstr "último"
+
+#: Template/Engines/index.ctp:57 Template/Users/index.ctp:61
+msgid ""
+"Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} "
+"total"
+msgstr ""
+"Página {{page}} de {{pages}}, que muestra {{current}} registro (s) de "
+"{{count}} total"
+
+#: Template/Engines/view.ctp:11
+msgid "Delete Engine"
+msgstr "Eliminar motor"
+
+#: Template/Engines/view.ctp:22
+msgid "Title"
+msgstr "Título"
+
+#: Template/Engines/view.ctp:26
+msgid "Constructor"
+msgstr "Constructor"
+
+#: Template/Engines/view.ctp:30 Template/Engines/view.ctp:55
+#: Template/Users/view.ctp:40 Template/Users/view.ctp:57
+msgid "Id"
+msgstr "Id"
+
+#: Template/Engines/view.ctp:34
+msgid "Number of cylinder"
+msgstr "Número de cilindro"
+
+#: Template/Engines/view.ctp:38
+msgid "Year of construction"
+msgstr "Año de construcción"
+
+#: Template/Engines/view.ctp:42 Template/Engines/view.ctp:61
+#: Template/Users/view.ctp:44 Template/Users/view.ctp:64
+msgid "Created"
+msgstr "Creado"
+
+#: Template/Engines/view.ctp:46 Template/Engines/view.ctp:62
+#: Template/Users/view.ctp:48 Template/Users/view.ctp:65
+msgid "Modified"
+msgstr "Modificado"
+
+#: Template/Engines/view.ctp:51 Template/Users/view.ctp:53
+msgid "Related Aircrafts"
+msgstr "Aeronaves relacionadas"
+
+#: Template/Engines/view.ctp:56 Template/Users/view.ctp:58
+msgid "User Id"
+msgstr "Id de usuario"
+
+#: Template/Engines/view.ctp:58 Template/Users/view.ctp:61
+msgid "Moteur"
+msgstr "Motor"
+
+#: Template/Layout/error.ctp:36
+msgid "Error"
+msgstr "Error"
+
+#: Template/Layout/error.ctp:44
+msgid "Back"
+msgstr "atrás"
+
+#: Template/Users/add.ctp:10 Template/Users/edit.ctp:16
+#: Template/Users/view.ctp:12
+msgid "List Users"
+msgstr "Lista de usuarios"
+
+#: Template/Users/add.ctp:11 Template/Users/edit.ctp:17
+#: Template/Users/index.ctp:12 Template/Users/view.ctp:14
+msgid "List Roles"
+msgstr "Lista de roles"
+
+#: Template/Users/add.ctp:12 Template/Users/edit.ctp:18
+#: Template/Users/index.ctp:13 Template/Users/view.ctp:15
+msgid "New Role"
+msgstr "Nuevo rol"
+
+#: Template/Users/add.ctp:20
+msgid "Add User"
+msgstr "Agregar usuario"
+
+#: Template/Users/edit.ctp:26 Template/Users/view.ctp:10
+msgid "Edit User"
+msgstr "editar usuario"
+
+#: Template/Users/index.ctp:10 Template/Users/view.ctp:13
+msgid "New User"
+msgstr "Nuevo usuario"
+
+#: Template/Users/index.ctp:20
+msgid "Users"
+msgstr "Usurarios"
+
+#: Template/Users/view.ctp:11
+msgid "Delete User"
+msgstr "Borrar usuario"
+
+#: Template/Users/view.ctp:24
+msgid "Role"
+msgstr "Papel"
+
+#: Template/Users/view.ctp:28
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: Template/Users/view.ctp:32
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: Template/Users/view.ctp:36
+msgid "Password"
+msgstr "Contraseña"
+
+#: Template/Users/view.ctp:60
+msgid "Slug"
+msgstr "Slug"

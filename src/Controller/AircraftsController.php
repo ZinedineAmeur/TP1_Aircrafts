@@ -7,7 +7,7 @@ class AircraftsController extends AppController
 	{
 		$action = $this->request->getParam('action');
 		// The add and tags actions are always allowed to logged in users.
-		if (in_array($action, ['add', 'tags'])) {
+		if (in_array($action, ['add', 'engines'])) {
 			return true;
 		}
 
@@ -30,7 +30,7 @@ class AircraftsController extends AppController
 
         $this->loadComponent('Paginator');
         $this->loadComponent('Flash'); // Include the FlashComponent
-		$this->Auth->allow(['tags']);
+		$this->Auth->allow(['engines']);
     }
 	
 	public function index()
@@ -75,7 +75,7 @@ class AircraftsController extends AppController
 	{
 		$aircraft = $this->Aircrafts
 		->findBySlug($slug)
-		->contain('Engines')
+	//	->contain('Engines')
 		->firstOrFail();
 		if ($this->request->is(['post', 'put'])) {
 			$this->Aircrafts->patchEntity($aircraft, $this->request->getData(), [

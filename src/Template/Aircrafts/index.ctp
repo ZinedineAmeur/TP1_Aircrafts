@@ -1,11 +1,11 @@
-<h1>Aircrafts</h1>
-<?= $this->Html->link('Add an aircraft', ['action' => 'add']) ?>
+<h1><?= __('Aircrafts') ?></h1>
+<?= $this->Html->link(__('Add an aircraft'), ['action' => 'add']) ?>
 <table>
     <tr>
-        <th>Model</th>
-		<th>By</th>
-        <th>Created</th>
-		<th>Action</th>
+        <th scope="col"><?= $this->Paginator->sort( ('Model')) ?></th>
+        <th scope="col"><?= $this->Paginator->sort(('By')) ?></th>
+        <th scope="col"><?= $this->Paginator->sort(('Created')) ?></th>
+        <th scope="col" class="actions"><?= __('Actions') ?></th>
     </tr>
 
     <?php foreach ($aircrafts as $aircraft): ?>
